@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Dhanasri. O. Nair
     - name: Date of Birth
-      value: 14th March 1879
+      value: 1st June 1994
     - name: Languages
-      value: English, German
+      value: English, Hindi, Marathi, Malayalam
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S. in Regulatory Affairs 
+      institution: Northeastern University 
+      year: 2020-2022
       description:
         - Description 1.
         - Description 2.
@@ -31,12 +31,17 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Regulatory Affairs Intern
+      institution: Medicinal Genomics Corporation
+      year: April 2022 - July 2022
       description:
-        - Description 1.
-        - Description 2.
+• Prepared notes on 15+ states’ cannabis microbial testing rules for updating the MGC compendium with the latest data.
+• Trained a new hire on MGC’s regulatory activities/tasks and performed supervisory responsibilities.
+• Accelerated timelines in submission of public comments by 50% by providing timely reports to the Regulatory Affairs Director.
+• Sent recommendation letters to state regulatory authorities for enhancing clarity and public safety in medical cannabis regulations.
+• Designed SOPs to update the MGC compendium to increase the organization’s efficiency and success.
+• Resolved regulatory queries from clients, Regulatory, R& D, Sales, and Marketing teams; provided reports when required.
+• Provided everyday regulatory news from the cannabis industry to the Senior Management/cross-functional teams to increase product compliance with the latest amendments.
         - title: Description 3.
           contents:
             - Sub-description 1.
