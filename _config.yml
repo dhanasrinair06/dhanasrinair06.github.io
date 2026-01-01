@@ -152,6 +152,8 @@ collections:
     output: true
   projects:
     output: true
+  chill:
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

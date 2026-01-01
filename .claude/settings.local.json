@@ -18,7 +18,8 @@
       "Bash(git -C \"c:\\\\Users\\\\shubh\\\\dhanasrinair.github.io\" push origin main)",
       "Bash(git -C \"c:\\\\Users\\\\shubh\\\\dhanasrinair.github.io\" log origin/main..HEAD --oneline)",
       "Bash(git -C \"c:\\\\Users\\\\shubh\\\\dhanasrinair.github.io\" add .)",
-      "Bash(git -C \"c:\\\\Users\\\\shubh\\\\dhanasrinair.github.io\" commit -m \"$\\(cat <<''EOF''\nRemove repositories, cv, and teaching from navigation\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git -C \"c:\\\\Users\\\\shubh\\\\dhanasrinair.github.io\" commit -m \"$\\(cat <<''EOF''\nRemove repositories, cv, and teaching from navigation\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C \"c:\\\\Users\\\\shubh\\\\dhanasrinair.github.io\" log --oneline -3 -- assets/img/prof_pic.jpg)"
     ]
   }
 }
