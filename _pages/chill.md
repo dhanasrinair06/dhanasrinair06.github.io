@@ -5,7 +5,7 @@ permalink: /chill/
 description: Things I do to unwind and recharge.
 nav: true
 nav_order: 4
-display_categories: [hobbies, interests]
+display_categories: [fun]
 horizontal: false
 ---
 
@@ -17,21 +17,21 @@ horizontal: false
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_chill = site.chill | where: "category", category %}
-  {% assign sorted_chill = categorized_chill | sort: "importance" %}
+  {% assign categorized_projects = site.chill | where: "category", category %}
+  {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each chill item -->
   {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-    {% for item in sorted_chill %}
-      {% include projects_horizontal.liquid project=item %}
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
-    {% for item in sorted_chill %}
-      {% include projects.liquid project=item %}
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
     {% endfor %}
   </div>
   {% endif %}
@@ -41,7 +41,7 @@ horizontal: false
 
 <!-- Display chill items without categories -->
 
-{% assign sorted_chill = site.chill | sort: "importance" %}
+{% assign sorted_projects = site.chill | sort: "importance" %}
 
   <!-- Generate cards for each chill item -->
 
@@ -49,15 +49,15 @@ horizontal: false
 
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-    {% for item in sorted_chill %}
-      {% include projects_horizontal.liquid project=item %}
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
-    {% for item in sorted_chill %}
-      {% include projects.liquid project=item %}
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
     {% endfor %}
   </div>
   {% endif %}
