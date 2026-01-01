@@ -13,7 +13,12 @@
       "Bash(git -C \"c:\\\\Users\\\\shubh\\\\dhanasrinair.github.io\" diff --stat)",
       "Bash(git -C \"c:\\\\Users\\\\shubh\\\\dhanasrinair.github.io\" log --oneline -5)",
       "Bash(git -C \"c:\\\\Users\\\\shubh\\\\dhanasrinair.github.io\" add .claude/settings.local.json)",
-      "Bash(git -C \"c:\\\\Users\\\\shubh\\\\dhanasrinair.github.io\" commit -m \"$\\(cat <<''EOF''\nUpdate Claude local settings\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git -C \"c:\\\\Users\\\\shubh\\\\dhanasrinair.github.io\" commit -m \"$\\(cat <<''EOF''\nUpdate Claude local settings\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C \"c:\\\\Users\\\\shubh\\\\dhanasrinair.github.io\" push)",
+      "Bash(git -C \"c:\\\\Users\\\\shubh\\\\dhanasrinair.github.io\" push origin main)",
+      "Bash(git -C \"c:\\\\Users\\\\shubh\\\\dhanasrinair.github.io\" log origin/main..HEAD --oneline)",
+      "Bash(git -C \"c:\\\\Users\\\\shubh\\\\dhanasrinair.github.io\" add .)",
+      "Bash(git -C \"c:\\\\Users\\\\shubh\\\\dhanasrinair.github.io\" commit -m \"$\\(cat <<''EOF''\nRemove repositories, cv, and teaching from navigation\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }
