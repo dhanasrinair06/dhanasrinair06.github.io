@@ -419,16 +419,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "chill-hobby-1",
-          title: 'Hobby 1',
-          description: "Description of your hobby or interest",
+            },},{id: "chill-doodles",
+          title: 'Doodles',
+          description: "Random sketches and doodles",
           section: "Chill",handler: () => {
-              window.location.href = "/chill/1_chill/";
-            },},{id: "chill-interest-1",
-          title: 'Interest 1',
-          description: "Description of another hobby or interest",
-          section: "Chill",handler: () => {
-              window.location.href = "/chill/2_chill/";
+              window.location.href = "/chill/1_doodles/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
