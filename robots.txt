@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://dhanasrinair06.github.io/sitemap.xml
+Sitemap: https://dhanasrinair.github.io/sitemap.xml
