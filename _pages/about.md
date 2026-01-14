@@ -28,6 +28,5 @@ A regulatory affairs professional with expertise in international product approv
 
 I enjoy working with people! Be it collaborating with diverse teams to resolve complex regulatory, R&D, and manufacturing issues or developing innovative regulatory strategies. Using my technical background and regulatory skills, I develop solutions to make process improvements and enhance documentation accuracy, resulting in business efficiency.
 
-Skilled in conducting thorough regulatory assessments and change approvals with a record turnaround time, maintaining uninterrupted device commercialization.
 
 4+ years experience working in diverse industries - APIs and animal nutrition, cannabis regulation, and medical devices. Master's in Regulatory Affairs and Microbiology.
