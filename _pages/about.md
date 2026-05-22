@@ -24,8 +24,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-A regulatory affairs professional with expertise in international product approvals, submissions, and compliance of Class I, II, and III medical devices.
+I'm Dhanasri Nair, a Regulatory Affairs professional with experience across medical devices, biotechnology, cannabis regulation, APIs, and global product registrations. My work focuses on turning regulatory complexity into clear, compliant strategy that enables market access, supports business continuity, and keeps patient impact at the center.
 
-I enjoy working with people! Be it collaborating with diverse teams to resolve complex regulatory, R&D, and manufacturing issues or developing innovative regulatory strategies. Using my technical background and regulatory skills, I develop solutions to make process improvements and enhance documentation accuracy, resulting in business efficiency.
+In my current role, I serve as Regulatory Affairs lead for EU MDR implementation of Class II/III peripheral vascular device portfolios, driving registrations across EMEA, APJ, and CALA from submission through launch with a 100% regulatory approval rate. My experience includes EU MDR and legacy MDD lifecycle management, technical documentation, notified body change notifications, regulatory impact assessments, labeling strategy, post-approval compliance, Declarations of Conformity, and regulatory authority responses.
 
-4+ years experience working in diverse industries - APIs and animal nutrition, cannabis regulation, and medical devices. Master's in Regulatory Affairs and Microbiology.
+I bring a cross-functional, evidence-based approach to regulatory decision-making, partnering with manufacturing, clinical, legal, packaging, supply chain, and commercial teams to resolve complex compliance questions and move products forward responsibly. I'm especially drawn to the strategic side of regulatory affairs — interpreting requirements, assessing risk, aligning stakeholders, and building practical pathways from regulatory obligation to business execution.
+
+Before medical devices, I built a strong foundation in microbiology, cannabis microbial testing regulations, APIs, DMFs, feed product registrations, and global regulatory intelligence. That scientific and cross-sector background gives me a broader lens on how regulation shapes product quality, public health, and access.
+
+Beyond my corporate work, I'm passionate about regulatory education, professional visibility, and community building. Through my involvement with RAPS Houston LNG, I create content and support programming that makes regulatory topics more accessible, connected, and relevant to professionals across the life sciences industry.
+
+At my core, I'm a strategist, communicator, and builder — someone who enjoys creating clarity from complexity. My long-term interests sit at the intersection of regulatory strategy, patient access, food and prevention policy, public health, and meaningful communication.
