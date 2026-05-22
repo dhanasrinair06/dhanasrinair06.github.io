@@ -1,8 +1,8 @@
 ---
 layout: page
-title: regulatory projects
+title: my work
 permalink: /projects/
-description: A growing collection of regulatory work.
+description: A growing collection of my regulatory work.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
