@@ -6,20 +6,20 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{$starry-cream};
+  --global-bg-color: #{$starry-sky-pale};
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$starry-navy};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$starry-gold};
-  --global-hover-color: #{$starry-indigo};
-  --global-hover-text-color: #{$starry-cream};
-  --global-footer-bg-color: #{$starry-navy-deep};
+  --global-text-color: #{$starry-text-deep};
+  --global-text-color-light: #{$starry-sky-mid};
+  --global-theme-color: #{$starry-sky};
+  --global-hover-color: #{$starry-star-warm};
+  --global-hover-text-color: #{$starry-sky-deep};
+  --global-footer-bg-color: #{$starry-cypress};
   --global-footer-text-color: #{$starry-cream-text};
-  --global-footer-link-color: #{$starry-gold-bright};
-  --global-distill-app-color: #{$grey-color};
+  --global-footer-link-color: #{$starry-star};
+  --global-distill-app-color: #{$starry-sky-mid};
   --global-divider-color: #{$starry-divider-light};
-  --global-card-bg-color: #{$starry-cream-card};
-  --global-highlight-color: #{$starry-gold};
+  --global-card-bg-color: #{$starry-sky-paper};
+  --global-highlight-color: #{$starry-star-warm};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},
@@ -78,19 +78,19 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #{$starry-navy-deep};
+  --global-bg-color: #{$starry-sky-deep};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$starry-cream-text};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$starry-gold-bright};
-  --global-hover-color: #{$starry-gold-bright};
-  --global-hover-text-color: #{$starry-navy-deep};
-  --global-footer-bg-color: #{$starry-navy};
+  --global-text-color-light: #{$starry-sky-light};
+  --global-theme-color: #{$starry-star};
+  --global-hover-color: #{$starry-star-glow};
+  --global-hover-text-color: #{$starry-sky-deep};
+  --global-footer-bg-color: #{$starry-cypress};
   --global-footer-text-color: #{$starry-cream-text};
-  --global-footer-link-color: #{$starry-gold-bright};
-  --global-distill-app-color: #{$grey-color-light};
+  --global-footer-link-color: #{$starry-star};
+  --global-distill-app-color: #{$starry-cream-text};
   --global-divider-color: #{$starry-divider-dark};
-  --global-card-bg-color: #{$starry-navy-card};
+  --global-card-bg-color: #{$starry-sky};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
     #{color.channel($white-color, "green", $space: rgb)},
