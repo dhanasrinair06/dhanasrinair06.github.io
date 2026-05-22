@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Regulatory Affairs Professional | Medical Devices | MS in Regulatory Affairs & Microbiology
+subtitle: Regulatory Affairs | Medical Devices | MS in Regulatory Affairs & Microbiology
 
 profile:
   align: right
