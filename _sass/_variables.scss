@@ -32,21 +32,19 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
-// Starry Night palette (Van Gogh — bold, blue-dominant)
-$starry-sky-deep: #0b1733 !default; // deepest midnight (dark mode bg)
-$starry-sky: #15294f !default; // night sky cobalt
-$starry-sky-mid: #1f3a6b !default; // mid-blue swirl
-$starry-sky-light: #3a5a90 !default; // brighter swirl
-$starry-sky-pale: #dbe5f5 !default; // pale sky-blue (light mode bg)
-$starry-sky-paper: #e9efff !default; // even paler, for light cards
-$starry-cypress: #0a0f24 !default; // near-black cypress (footer)
-$starry-star: #f4d03f !default; // bright star gold
-$starry-star-warm: #d4a017 !default; // warm gold (light mode accent)
-$starry-star-glow: #fff3b0 !default; // pale star halo
-$starry-cream-text: #f4ecd0 !default; // text on dark blue
-$starry-text-deep: #0b1733 !default; // text on light blue
-$starry-divider-light: rgba(11, 23, 51, 0.15) !default;
-$starry-divider-dark: rgba(244, 236, 208, 0.18) !default;
+// Professional navy + gold palette
+$navy-deep: #0a1f44 !default; // dark mode bg, footer
+$navy: #14305c !default; // primary navy (text in light mode)
+$navy-mid: #1e4079 !default; // hover/secondary
+$navy-card: #14305c !default; // dark mode card bg
+$paper: #fafaf7 !default; // light mode bg (warm off-white)
+$paper-card: #ffffff !default; // light mode card bg
+$gold: #c89211 !default; // warm gold accent (light mode)
+$gold-bright: #f4c430 !default; // bright gold (dark mode accent)
+$gold-soft: #fff3c4 !default; // hover background tint
+$cream-text: #f3eedc !default; // text on dark navy
+$divider-light: rgba(10, 31, 68, 0.12) !default;
+$divider-dark: rgba(243, 238, 220, 0.16) !default;
 
 // Theme colors
 

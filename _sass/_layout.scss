@@ -2,20 +2,10 @@
  * Content
  ******************************************************************************/
 
-// Starry Night wallpaper — fixed full-viewport background, consistent across every page
-html {
-  background-image: url("/assets/img/starry-night-bg.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: var(--global-bg-color);
-}
-
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
-  background-color: transparent;
+  background-color: var(--global-bg-color);
 
   h1,
   h2,
@@ -25,16 +15,6 @@ body {
   h6 {
     scroll-margin-top: 66px;
   }
-}
-
-// Light mode: lay a translucent veil so the painting reads as a soft backdrop with readable text
-html:not([data-theme="dark"]) body {
-  background-color: rgba(232, 238, 251, 0.72);
-}
-
-// Dark mode: a faint darken-veil so the painting doesn't overpower text
-html[data-theme="dark"] body {
-  background-color: rgba(11, 23, 51, 0.45);
 }
 
 body.fixed-top-nav {
