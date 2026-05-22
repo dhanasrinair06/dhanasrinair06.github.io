@@ -17,6 +17,12 @@ body {
   }
 }
 
+// More breathing room between paragraphs on the about page
+.post article .clearfix p {
+  margin-bottom: 1.6rem;
+  line-height: 1.75;
+}
+
 body.fixed-top-nav {
   // Add some padding for the nav-bar.
   padding-top: 56px;
