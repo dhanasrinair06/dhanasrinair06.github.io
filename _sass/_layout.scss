@@ -18,9 +18,12 @@ body {
 }
 
 // More breathing room between paragraphs on the about page
-.post article .clearfix p {
-  margin-bottom: 1.6rem;
-  line-height: 1.75;
+.post article .clearfix p,
+.post article > p,
+article .clearfix p {
+  margin-top: 0 !important;
+  margin-bottom: 2.25rem !important;
+  line-height: 1.85 !important;
 }
 
 body.fixed-top-nav {
