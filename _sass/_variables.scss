@@ -32,6 +32,19 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Starry Night palette (subtle, inspired by Van Gogh)
+$starry-cream: #fdfaf3 !default; // soft warm off-white
+$starry-cream-card: #f8f2e0 !default; // slightly warmer for cards
+$starry-navy: #1a2a4a !default; // deep midnight text
+$starry-navy-deep: #0e1a36 !default; // even deeper, dark-mode bg
+$starry-navy-card: #1c2a4a !default; // dark-mode card bg
+$starry-indigo: #2d4373 !default;
+$starry-gold: #c89a2e !default; // warm gold accent (light mode)
+$starry-gold-bright: #e6c84f !default; // brighter gold (dark mode)
+$starry-cream-text: #f0e9d2 !default; // body text on dark bg
+$starry-divider-light: rgba(26, 42, 74, 0.12) !default;
+$starry-divider-dark: rgba(240, 233, 210, 0.12) !default;
+
 // Theme colors
 
 $code-bg-color-light: rgba($purple-color, 0.05);
