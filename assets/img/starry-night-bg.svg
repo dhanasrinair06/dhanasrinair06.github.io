@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="skyGradient" cx="50%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#1f3a6b"/>
+      <stop offset="50%" stop-color="#15294f"/>
+      <stop offset="100%" stop-color="#0b1733"/>
+    </radialGradient>
+
+    <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff3b0" stop-opacity="1"/>
+      <stop offset="30%" stop-color="#f4d03f" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#f4d03f" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe79a" stop-opacity="1"/>
+      <stop offset="20%" stop-color="#f4d03f" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#d4a017" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#d4a017" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="swirlStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a5a90" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1f3a6b" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="swirlStrokeLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8aa6d6" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#3a5a90" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base sky -->
+  <rect width="1920" height="1080" fill="url(#skyGradient)"/>
+
+  <!-- Painterly swirls -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+    <!-- Big central swirl (the famous one) -->
+    <path d="M 700 380 q 180 -120 320 0 q 90 130 -90 200 q -160 50 -230 -100 q -50 -160 130 -180 q 150 -10 180 130"
+          stroke="url(#swirlStroke)" stroke-width="40"/>
+    <path d="M 760 400 q 130 -80 220 20 q 60 100 -70 140 q -110 30 -150 -70 q -30 -110 90 -120"
+          stroke="url(#swirlStrokeLight)" stroke-width="22"/>
+    <path d="M 810 430 q 80 -50 140 20 q 40 70 -50 90 q -80 20 -90 -50"
+          stroke="#dbe5f5" stroke-opacity="0.55" stroke-width="10"/>
+
+    <!-- Secondary swirl, upper-left -->
+    <path d="M 220 220 q 140 -90 240 30 q 70 110 -90 160 q -140 30 -180 -90 q -30 -130 120 -150"
+          stroke="url(#swirlStroke)" stroke-width="36"/>
+    <path d="M 270 250 q 100 -60 170 30 q 50 80 -60 110 q -100 20 -120 -70"
+          stroke="url(#swirlStrokeLight)" stroke-width="18"/>
+
+    <!-- Right-side flowing swirl -->
+    <path d="M 1300 600 q 200 -100 320 60 q 80 150 -120 200 q -200 30 -240 -130 q -30 -170 180 -180"
+          stroke="url(#swirlStroke)" stroke-width="42"/>
+    <path d="M 1360 620 q 150 -70 240 60 q 60 110 -80 140 q -150 20 -180 -100"
+          stroke="url(#swirlStrokeLight)" stroke-width="20"/>
+
+    <!-- Long flowing horizontal current -->
+    <path d="M 0 850 q 200 -120 400 -20 q 200 100 400 -40 q 200 -140 400 0 q 200 140 400 -60 q 200 -200 400 0"
+          stroke="#3a5a90" stroke-opacity="0.5" stroke-width="30"/>
+    <path d="M 0 870 q 200 -120 400 -20 q 200 100 400 -40 q 200 -140 400 0 q 200 140 400 -60 q 200 -200 400 0"
+          stroke="#dbe5f5" stroke-opacity="0.25" stroke-width="8"/>
+
+    <!-- Top sky ripples -->
+    <path d="M 0 120 q 240 -80 480 20 q 240 100 480 -40 q 240 -140 480 30 q 240 170 480 -20"
+          stroke="#3a5a90" stroke-opacity="0.45" stroke-width="22"/>
+    <path d="M 0 180 q 240 -60 480 30 q 240 90 480 -30 q 240 -120 480 20 q 240 140 480 -10"
+          stroke="#dbe5f5" stroke-opacity="0.2" stroke-width="6"/>
+  </g>
+
+  <!-- Crescent moon (right side, like the painting) -->
+  <g transform="translate(1640, 200)">
+    <circle cx="0" cy="0" r="160" fill="url(#moonGlow)"/>
+    <circle cx="0" cy="0" r="55" fill="#fff3b0"/>
+    <path d="M 25 -40 a 50 50 0 1 0 0 80 a 35 35 0 1 1 0 -80 z" fill="#f4d03f"/>
+  </g>
+
+  <!-- Stars with halos -->
+  <g>
+    <g transform="translate(260, 540)"><circle r="70" fill="url(#starGlow)"/><circle r="14" fill="#fff3b0"/></g>
+    <g transform="translate(440, 180)"><circle r="55" fill="url(#starGlow)"/><circle r="11" fill="#fff3b0"/></g>
+    <g transform="translate(620, 620)"><circle r="50" fill="url(#starGlow)"/><circle r="9" fill="#fff3b0"/></g>
+    <g transform="translate(1080, 200)"><circle r="60" fill="url(#starGlow)"/><circle r="12" fill="#fff3b0"/></g>
+    <g transform="translate(1240, 360)"><circle r="45" fill="url(#starGlow)"/><circle r="8" fill="#fff3b0"/></g>
+    <g transform="translate(1500, 480)"><circle r="55" fill="url(#starGlow)"/><circle r="10" fill="#fff3b0"/></g>
+    <g transform="translate(880, 720)"><circle r="40" fill="url(#starGlow)"/><circle r="7" fill="#fff3b0"/></g>
+    <g transform="translate(1700, 720)"><circle r="50" fill="url(#starGlow)"/><circle r="9" fill="#fff3b0"/></g>
+    <g transform="translate(140, 380)"><circle r="35" fill="url(#starGlow)"/><circle r="6" fill="#fff3b0"/></g>
+    <g transform="translate(1840, 400)"><circle r="40" fill="url(#starGlow)"/><circle r="7" fill="#fff3b0"/></g>
+  </g>
+
+  <!-- Cypress tree silhouette on left (signature element) -->
+  <path d="M 80 1080 Q 60 850 90 700 Q 110 600 80 480 Q 70 380 100 320 Q 130 380 110 470 Q 130 580 120 680 Q 140 800 110 920 Q 130 1010 80 1080 Z"
+        fill="#0a0f24" opacity="0.85"/>
+</svg>

@@ -2,10 +2,19 @@
  * Content
  ******************************************************************************/
 
+html {
+  background-image: url("/assets/img/starry-night-bg.svg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: var(--global-bg-color);
+}
+
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
-  background-color: var(--global-bg-color);
+  background-color: transparent;
 
   h1,
   h2,
@@ -15,6 +24,15 @@ body {
   h6 {
     scroll-margin-top: 66px;
   }
+}
+
+// Light mode: lay a translucent veil of the pale-sky color over the swirls so they read subtly
+html:not([data-theme="dark"]) {
+  background-blend-mode: lighten;
+}
+
+html:not([data-theme="dark"]) body {
+  background-color: rgba(219, 229, 245, 0.78);
 }
 
 body.fixed-top-nav {
