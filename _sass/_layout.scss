@@ -2,8 +2,9 @@
  * Content
  ******************************************************************************/
 
+// Starry Night wallpaper — fixed full-viewport background, consistent across every page
 html {
-  background-image: url("/assets/img/starry-night-bg.svg");
+  background-image: url("/assets/img/starry-night-bg.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -26,13 +27,14 @@ body {
   }
 }
 
-// Light mode: lay a translucent veil of the pale-sky color over the swirls so they read subtly
-html:not([data-theme="dark"]) {
-  background-blend-mode: lighten;
+// Light mode: lay a translucent veil so the painting reads as a soft backdrop with readable text
+html:not([data-theme="dark"]) body {
+  background-color: rgba(232, 238, 251, 0.72);
 }
 
-html:not([data-theme="dark"]) body {
-  background-color: rgba(219, 229, 245, 0.78);
+// Dark mode: a faint darken-veil so the painting doesn't overpower text
+html[data-theme="dark"] body {
+  background-color: rgba(11, 23, 51, 0.45);
 }
 
 body.fixed-top-nav {
