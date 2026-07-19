@@ -10,6 +10,11 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
+
+<p style="font-style: italic; opacity: 0.85; margin-bottom: 2rem;">
+The devices below are Abbott products I supported in a Regulatory Affairs capacity. All product information shown is publicly available on Abbott's website.
+</p>
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
