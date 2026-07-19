@@ -8,7 +8,7 @@ nav_order: 3
 ---
 
 <p style="font-style: italic; opacity: 0.85; margin-bottom: 2rem;">
-Led EU MDR implementation for Abbott's Class II/III carotid device portfolio across EMEA, APJ, and CALA, and supported peripheral dilatation catheter submissions in select EMEA and APJ markets — all delivered with a 100% regulatory approval rate. Product information shown is publicly available on Abbott's website.
+Product information shown is publicly available on Abbott's website.
 </p>
 
 <div class="category-cards-grid">
