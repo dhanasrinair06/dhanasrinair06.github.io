@@ -2,69 +2,75 @@
 layout: page
 title: my work
 permalink: /projects/
-description: A growing collection of my regulatory work.
+description: A collection of my regulatory work.
 nav: true
 nav_order: 3
-display_categories: [work]
-horizontal: false
 ---
-
-<!-- pages/projects.md -->
 
 <p style="font-style: italic; opacity: 0.85; margin-bottom: 2rem;">
 Led EU MDR implementation for Abbott's Class II/III carotid device portfolio across EMEA, APJ, and CALA, and supported peripheral dilatation catheter submissions in select EMEA and APJ markets — all delivered with a 100% regulatory approval rate. Product information shown is publicly available on Abbott's website.
 </p>
 
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
+<div class="category-cards-grid">
+
+  <div class="category-card">
+    <input id="cat-peripheral" type="checkbox" class="category-card__toggle" aria-label="Reveal Peripheral Dilatation Catheter details">
+    <label for="cat-peripheral" class="category-card__inner">
+      <div class="category-card__face category-card__front">
+        <div class="category-card__front-icon">◐</div>
+        <h3 class="category-card__front-title">Peripheral Dilatation Catheter</h3>
+        <p class="category-card__front-hint">click to reveal</p>
+      </div>
+      <div class="category-card__face category-card__back">
+        <p class="category-card__back-label">Product</p>
+        <ul class="category-card__back-products">
+          <li>Viatrac 14 Plus</li>
+        </ul>
+        <p class="category-card__back-label">Role</p>
+        <p class="category-card__back-role">Supported EU MDR submissions across select markets in EMEA and APJ.</p>
+      </div>
+    </label>
   </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
+
+  <div class="category-card">
+    <input id="cat-carotid" type="checkbox" class="category-card__toggle" aria-label="Reveal Carotid Products details">
+    <label for="cat-carotid" class="category-card__inner">
+      <div class="category-card__face category-card__front">
+        <div class="category-card__front-icon">◉</div>
+        <h3 class="category-card__front-title">Carotid Products</h3>
+        <p class="category-card__front-hint">click to reveal</p>
+      </div>
+      <div class="category-card__face category-card__back">
+        <p class="category-card__back-label">Products</p>
+        <ul class="category-card__back-products">
+          <li>RX Acculink Carotid Stent System</li>
+          <li>Xact Carotid Stent System</li>
+          <li>Emboshield NAV6 Embolic Protection System</li>
+          <li>BareWire Filter Delivery Wires</li>
+        </ul>
+        <p class="category-card__back-label">Role</p>
+        <p class="category-card__back-role">Directed end-to-end EU MDR execution for stent systems, embolic protection devices, and delivery wires, delivering 100% approvals across EMEA, APJ, and CALA.</p>
+      </div>
+    </label>
   </div>
-  {% endif %}
-  {% endfor %}
 
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
+  <div class="category-card">
+    <input id="cat-thrombectomy" type="checkbox" class="category-card__toggle" aria-label="Reveal Thrombectomy Products details">
+    <label for="cat-thrombectomy" class="category-card__inner">
+      <div class="category-card__face category-card__front">
+        <div class="category-card__front-icon">◎</div>
+        <h3 class="category-card__front-title">Thrombectomy Products</h3>
+        <p class="category-card__front-hint">click to reveal</p>
+      </div>
+      <div class="category-card__face category-card__back">
+        <p class="category-card__back-label">Product</p>
+        <ul class="category-card__back-products">
+          <li>JETi Hydrodynamic Thrombectomy System</li>
+        </ul>
+        <p class="category-card__back-label">Role</p>
+        <p class="category-card__back-role">Supported post-acquisition regulatory integration, contributing to quality system alignment, manufacturing transitions, and change assessments as the portfolio moved under new ownership.</p>
+      </div>
+    </label>
   </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
+
 </div>
