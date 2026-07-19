@@ -1,7 +1,7 @@
 ---
 layout: page
 title: JETi Hydrodynamic Thrombectomy System
-description: Regulatory support for EU MDR submissions and change notifications on Abbott's hydrodynamic thrombectomy system for peripheral vessels.
+description: Supported post-acquisition regulatory integration of JETi, Abbott's hydrodynamic thrombectomy system for peripheral vessels, aligning the acquired platform with Abbott's quality and regulatory framework.
 img: assets/img/products/jeti.jpg
 importance: 5
 category: work

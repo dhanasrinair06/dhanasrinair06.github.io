@@ -12,7 +12,7 @@ horizontal: false
 <!-- pages/projects.md -->
 
 <p style="font-style: italic; opacity: 0.85; margin-bottom: 2rem;">
-The devices below are Abbott products I supported in a Regulatory Affairs capacity. All product information shown is publicly available on Abbott's website.
+Led EU MDR implementation for Abbott's Class II/III carotid device portfolio across EMEA, APJ, and CALA, and supported peripheral dilatation catheter submissions in select EMEA and APJ markets — all delivered with a 100% regulatory approval rate. Product information shown is publicly available on Abbott's website.
 </p>
 
 <div class="projects">

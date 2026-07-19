@@ -1,7 +1,7 @@
 ---
 layout: page
 title: BareWire Filter Delivery Wires
-description: Regulatory support for EU MDR documentation on Abbott's filter delivery wires used with the Emboshield NAV6 system.
+description: Led regulatory activities for the BareWire delivery wires that deploy the Emboshield NAV6 embolic protection filter in carotid and lower-extremity interventions.
 img: assets/img/products/barewire.jpg
 importance: 6
 category: work
