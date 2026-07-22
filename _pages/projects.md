@@ -2,7 +2,7 @@
 layout: page
 title: my work
 permalink: /projects/
-description: A collection of my regulatory work.
+description: "My work includes turning regulatory complexity into market access for Class II/III medical devices! The portfolios below reached patients across EMEA, APJ, and CALA — most recently through EU MDR submissions delivered at a 100% approval rate and worldwide product launches, with patient safety at the center. I'm currently leading new product launches in ROW countries and managing change notices, technical documentation updates, and change assessments."
 nav: true
 nav_order: 3
 ---
