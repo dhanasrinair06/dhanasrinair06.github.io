@@ -6,4 +6,4 @@ nav: true
 nav_order: 6
 ---
 
-Takeaways, learnings, and reflections from my work in regulatory affairs — coming soon.
+The regulatory world in my lens 🔍
