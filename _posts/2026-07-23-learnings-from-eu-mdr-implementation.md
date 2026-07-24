@@ -1,8 +1,7 @@
 ---
 layout: post
-title: learnings from an EU MDR implementation project
+title: Learnings from global submissions - EU MDD to EU MDR transition
 date: 2026-07-23 10:00:00-0400
-description: what an EU MDD to EU MDR transition taught me about cross-functional communication
 tags: regulatory-affairs eu-mdr
 categories: regulatory-notes
 related_posts: false
