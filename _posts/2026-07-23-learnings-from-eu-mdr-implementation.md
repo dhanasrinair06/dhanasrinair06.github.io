@@ -5,7 +5,6 @@ date: 2026-07-23 10:00:00-0400
 tags: regulatory-affairs eu-mdr
 categories: regulatory-notes
 related_posts: false
-giscus_comments: true
 ---
 
 Regulatory affairs leans heavily on cross-functional teams, which makes timely communication one of the most critical factors in getting devices to patients on time for their treatment. Here are the lessons that made the biggest difference to me during an EU MDD to EU MDR transition.

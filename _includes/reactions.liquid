@@ -1,0 +1,57 @@
+<div
+  class="reglens-reactions"
+  data-reactions-namespace="dhanasrinair06-github-io"
+  data-reactions-key="react-{{ page.slug }}"
+>
+  <span class="reactions-label">Reactions:</span>
+  <button type="button" class="reaction-btn" data-emoji="thumbsup" aria-label="Thumbs up">👍 <span class="reaction-count">—</span></button>
+  <button type="button" class="reaction-btn" data-emoji="celebrate" aria-label="Celebrate">🎉 <span class="reaction-count">—</span></button>
+  <button type="button" class="reaction-btn" data-emoji="insightful" aria-label="Insightful">💡 <span class="reaction-count">—</span></button>
+  <button type="button" class="reaction-btn" data-emoji="clap" aria-label="Clap">👏 <span class="reaction-count">—</span></button>
+</div>
+
+<style>
+  .reglens-reactions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem 0 2rem;
+  }
+  .reglens-reactions .reactions-label {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    margin-right: 0.25rem;
+  }
+  .reglens-reactions .reaction-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: transparent;
+    border: 1px solid var(--global-divider-color, #e0e0e0);
+    border-radius: 2rem;
+    padding: 0.3rem 0.75rem;
+    cursor: pointer;
+    font-size: 0.95rem;
+    line-height: 1;
+    color: var(--global-text-color, inherit);
+    transition: border-color 0.2s ease, transform 0.1s ease;
+  }
+  .reglens-reactions .reaction-btn:hover {
+    border-color: var(--global-theme-color, #b509ac);
+  }
+  .reglens-reactions .reaction-btn:active {
+    transform: scale(0.95);
+  }
+  .reglens-reactions .reaction-btn.reacted {
+    border-color: var(--global-theme-color, #b509ac);
+    cursor: default;
+  }
+  .reglens-reactions .reaction-count {
+    font-size: 0.8rem;
+    opacity: 0.75;
+  }
+</style>
+
+<script defer src="{{ '/assets/js/reactions.js' | relative_url }}"></script>
