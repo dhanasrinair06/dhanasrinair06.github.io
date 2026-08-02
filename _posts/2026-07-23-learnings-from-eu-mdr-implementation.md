@@ -22,15 +22,12 @@ Whenever I spot a gap in my understanding of what's needed, I ask affiliates for
 
 - Schedule a meeting with the affiliate to fully understand what the authority is asking for
 - Ask for examples of similar questions raised previously for other portfolios, and how we addressed them
-- Prioritize these requests as they arrive — authority responses usually carry a fixed 15–30 day deadline
+- Prioritize these requests as they arrive — authority responses usually carry a fixed 30-day deadline
 
-**Get addendum labeling right.** Start with an in-depth understanding of the procedures, then determine whether the EU MDR transition changes impact the license number:
-
-- **If the license number is not changing:** create the addendum labeling ahead of approval, so the final label release and implementation go smoothly per EU MDR requirements.
-- **If the license number is changing:** release the draft label first, then update the license number in the label once the approval comes through.
+**Addendum labeling.** The process starts with understanding the timelines for addendum labeling implementation, then assessing the impact to the license number — whether it stays the same (e.g., an amendment) or changes (e.g., a new registration) — and weighing whether to start addendum labeling creation earlier in the process.
 
 *(A deeper dive into addendum labeling is coming in a separate post.)*
 
-**Communicate delays as soon as you know.** Flag delays to affiliates the moment you become aware of them. Early notice lets you build mitigation strategies together — for example, submitting certain documents later in the process where that's allowed. It also helps you understand the full impact of a delay: penalties, timeline slippage, and business impact.
+**Communicate delays as soon as you know.** Flag delays to affiliates the moment you become aware of them. Early notice lets you build mitigation strategies together — for example, submitting certain documents later in the submission process as agreed upon by the authority. It also helps you understand the full impact of a delay: penalties, timeline slippage, and business impact.
 
 **Give teams a heads-up before a big wave of submissions.** When a large volume of submissions is coming, notify the teams involved — supply chain, manufacturing, labeling, and others — about the upcoming submissions and LBEs. That way they can prepare well in advance and know what to expect.
