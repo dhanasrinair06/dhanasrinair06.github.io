@@ -96,38 +96,32 @@ html[data-theme="dark"] .work-category__role {
  * Doodle gallery (used on the individual Doodles chill page)
  ******************************************************************************/
 
-/* Masonry-style columns: every doodle shows in full at its natural
-   proportions — never cropped, squished, or forced into a fixed frame. */
+/* Bite-sized uniform cards. object-fit: contain guarantees the WHOLE
+   doodle is shown inside each card — it can never be cropped. */
 .doodle-gallery {
-  column-count: 3;
-  column-gap: 1.75rem;
   margin: 1.5rem 0 2rem;
 }
 
-@media (max-width: 768px) {
-  .doodle-gallery {
-    column-count: 2;
-  }
-}
-
-@media (max-width: 480px) {
-  .doodle-gallery {
-    column-count: 1;
-  }
-}
-
-.doodle-gallery img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 0 1.75rem;
-  border-radius: 10px;
+.doodle-gallery .doodle-item {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 0.7rem;
   box-shadow: 0 2px 8px rgba(10, 31, 68, 0.12);
-  break-inside: avoid;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.doodle-gallery img:hover {
+.doodle-gallery .doodle-item:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 14px rgba(10, 31, 68, 0.18);
+}
+
+.doodle-gallery .doodle-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 6px;
 }
