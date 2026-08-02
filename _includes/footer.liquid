@@ -9,12 +9,9 @@
   {% if site.last_updated %}
     Last updated: {{ 'now' | date: '%B %d, %Y' }}.
   {% endif %}
-  <div class="visitor-counter mt-2">
-    <img
-      src="https://visitor-badge.laobi.icu/badge?page_id=dhanasrinair06.github.io&left_text=Visitors"
-      alt="Visitor count"
-      loading="lazy"
-      style="height: 20px;" />
+  <div class="visitor-counter mt-2" style="font-size: 0.8rem; opacity: 0.85;">
+    <i class="fa-solid fa-eye"></i>
+    <span id="visitor-count">—</span> visitors
   </div>
 {% endcapture %}
 
@@ -35,3 +32,5 @@
     </div>
   </footer>
 {% endif %}
+
+<script defer src="{{ '/assets/js/visitor-counter.js' | relative_url }}"></script>
