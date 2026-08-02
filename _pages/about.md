@@ -23,4 +23,4 @@ The first came during my Master's in microbiology in Mumbai, when a chapter on p
 
 I'd been eyeing a PhD when a biotech company in Mumbai called with a Regulatory Affairs Trainee role. Three years in, I knew RA was the calling, and I went deeper with a Master's in Regulatory Affairs at Northeastern. My microbiology background still shapes how I frame problems and map the path forward. Along the way, medical devices became the focus — and in 2022 I joined Abbott Vascular as an RA Specialist II, working on global submissions so devices reach the patients on time.
 
-Off the clock, I'm usually doodling, gardening, cooking a vegan meal, reading, or on a yoga mat.
+Off the clock, I'm usually doodling, gardening, cooking a vegan meal, reading, or on a yoga mat. I'm also building a food health app.
