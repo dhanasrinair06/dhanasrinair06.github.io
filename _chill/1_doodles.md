@@ -64,5 +64,11 @@ category: fun
       </div>
     </div>
 
+    <div class="col">
+      <div class="doodle-item">
+        {% include figure.liquid loading="lazy" path="assets/img/doodles/10-keep-growing.png" class="img-fluid rounded z-depth-1" %}
+      </div>
+    </div>
+
   </div>
 </div>
