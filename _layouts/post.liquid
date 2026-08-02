@@ -70,6 +70,10 @@ layout: default
     </div>
   </article>
 
+  {% if page.categories contains 'regulatory-notes' %}
+    {% include like_button.liquid %}
+  {% endif %}
+
   {% if page.citation %}
     {% include citation.liquid %}
   {% endif %}

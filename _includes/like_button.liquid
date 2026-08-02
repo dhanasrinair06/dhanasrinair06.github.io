@@ -1,0 +1,51 @@
+<div
+  class="reglens-like"
+  data-like-namespace="dhanasrinair06-github-io"
+  data-like-key="like-{{ page.slug }}"
+>
+  <button type="button" class="like-btn" aria-label="Like this post" title="Like this post">
+    <i class="fa-regular fa-heart"></i>
+    <span class="like-count">—</span>
+  </button>
+  <div class="like-caption">Like this post</div>
+</div>
+
+<style>
+  .reglens-like {
+    text-align: center;
+    margin: 2.5rem 0 1rem;
+  }
+  .reglens-like .like-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: transparent;
+    border: 1px solid var(--global-divider-color, #e0e0e0);
+    border-radius: 2rem;
+    padding: 0.45rem 1.1rem;
+    cursor: pointer;
+    font-size: 1.05rem;
+    line-height: 1;
+    color: var(--global-text-color, inherit);
+    transition: color 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
+  }
+  .reglens-like .like-btn:hover {
+    color: #e0245e;
+    border-color: #e0245e;
+  }
+  .reglens-like .like-btn:active {
+    transform: scale(0.95);
+  }
+  .reglens-like .like-btn.liked {
+    color: #e0245e;
+    border-color: #e0245e;
+    cursor: default;
+  }
+  .reglens-like .like-caption {
+    font-size: 0.78rem;
+    opacity: 0.65;
+    margin-top: 0.4rem;
+  }
+</style>
+
+<script defer src="{{ '/assets/js/like-button.js' | relative_url }}"></script>
