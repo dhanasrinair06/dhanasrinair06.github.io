@@ -1,18 +1,20 @@
 {% capture footer_contents %}
-  &copy; Copyright {{ site.time | date: '%Y' }}
-  {{ site.first_name }}
-  {{ site.middle_name }}
-  {{ site.last_name }}. {{ site.footer_text }}
-  {% if site.impressum_path %}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+  {% if page.url == '/' %}
+    &copy; Copyright {{ site.time | date: '%Y' }}
+    {{ site.first_name }}
+    {{ site.middle_name }}
+    {{ site.last_name }}. {{ site.footer_text }}
+    {% if site.impressum_path %}
+      <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+    {% endif %}
+    {% if site.last_updated %}
+      Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+    {% endif %}
+    <div class="visitor-counter mt-2" style="font-size: 0.8rem; opacity: 0.85;">
+      <i class="fa-solid fa-eye"></i>
+      <span id="visitor-count">—</span> visitors
+    </div>
   {% endif %}
-  {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-  {% endif %}
-  <div class="visitor-counter mt-2" style="font-size: 0.8rem; opacity: 0.85;">
-    <i class="fa-solid fa-eye"></i>
-    <span id="visitor-count">—</span> visitors
-  </div>
 {% endcapture %}
 
 {% if site.footer_fixed %}
