@@ -1,7 +1,7 @@
 <div class="cusdis-comments" style="max-width: {{ site.max_width }}; margin: 2.5rem auto 0;">
   <h3>Was this helpful?</h3>
-  <p style="font-size: 0.9rem; opacity: 0.8; margin-bottom: 1rem;">
-    I'd love to know if this was useful — or any thoughts you have. Just add a nickname; no account needed.
+  <p style="font-size: 0.9rem; opacity: 0.85; margin-bottom: 1rem;">
+    I'd love to know your thoughts! 💭 Just drop a nickname and your comment below — no account, no fuss.
   </p>
   <div
     id="cusdis_thread"
@@ -10,6 +10,21 @@
     data-page-id="{{ page.url }}"
     data-page-url="{{ page.url | absolute_url }}"
     data-page-title="{{ page.title | escape }}"
+    data-theme="auto"
   ></div>
 </div>
+<script>
+  // Match the Cusdis widget to the site's current light/dark theme so it blends in.
+  (function () {
+    function siteTheme() {
+      var t = document.documentElement.getAttribute("data-theme");
+      if (t === "dark" || t === "light") return t;
+      return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light";
+    }
+    var el = document.getElementById("cusdis_thread");
+    if (el) el.setAttribute("data-theme", siteTheme());
+  })();
+</script>
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
