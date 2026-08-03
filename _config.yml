@@ -114,7 +114,7 @@ giscus:
 
 # Cusdis comments (no-login, privacy-friendly — anyone can comment without an account)
 cusdis:
-  app_id: # get your app id at https://cusdis.com
+  app_id: 5969028f-055b-44ea-8033-23112ce5b2d7
 
 # Disqus comments (DEPRECATED)
 disqus_shortname: al-folio # put your disqus shortname
