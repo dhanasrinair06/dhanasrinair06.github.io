@@ -2,17 +2,13 @@
 layout: page
 title: Food/Feed Products
 permalink: /projects/food-feed/
-description: "Regulatory submissions for enzyme-based API, food, and animal-feed products at Advanced Enzyme Technologies — 11 registrations across APJ and EMEA."
+description: "Global submissions for enzyme-based food, feed, and API products at Advanced Enzyme Technologies — and a dossier redesign that halved regulator queries."
 nav: false
 ---
 
-As a Regulatory Affairs Executive at Advanced Enzyme Technologies, I managed regulatory submissions for enzyme-based API, food, and animal-feed products across global markets.
+As a Regulatory Affairs Executive at Advanced Enzyme Technologies, I led global submissions for enzyme-based food, feed, and API products across APJ and EMEA.
 
-- Managed API and feed dossiers for 11 product registrations across APJ and EMEA regions.
-- Redesigned the dossier structure by analyzing historical submissions, reducing regulatory queries by 50%.
-- Resolved 100+ API, DMF, and product queries by coordinating cross-functional responses to support approval timelines.
-- Delivered compliance updates across EFSA, U.S. FDA, Health Canada, FSSAI, and FSANZ to guide regulatory planning.
-- Translated complex non-clinical study data into clear dossier summaries for submission readiness.
+What I'm proudest of: I dug into our past submissions to understand what kept triggering regulator questions, then redesigned our dossier structure around those patterns — cutting regulatory queries in half. Fewer questions meant faster approvals and products reaching the market sooner.
 
 Explore the product areas I supported at Advanced Enzyme Technologies:
 
