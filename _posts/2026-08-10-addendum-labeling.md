@@ -15,15 +15,10 @@ In my earlier post on the EU MDD to EU MDR transition, I promised a closer look 
 
 - Use internal procedures to understand requirements and watch for emerging changes. E.g., CALA markets like Brazil and Mexico have traditionally required paper IFUs, but Mexico now accepts eIFU thanks to a new emerging issue. Closing the gap between RA and affiliates on current requirements early prevents surprises later.
 
-**Match the submission type to your labeling plan.** This means looking at how the submission affects labeling:
+**Match the submission type to your labeling plan.** Look at how the submission affects labeling — is it a new registration/license, or an amendment to the existing one? For an amendment, the license number often stays the same, so labels like import and product labels can often be created ahead of approval. This matters because some countries take 3–6 months to approve; if labeling takes a similar amount of time, starting only after approval pushes the launch timelines out.
 
-- Is it a new registration/license, or an amendment to the existing one? For an amendment, the license number often stays the same, so labels like import labels and product labels often can be created ahead of approval.
-- Talk timelines through with the affiliate early, and agree on what can start before approval.
-
-**Start early and draft ahead of approval.** In cases where some countries take 3–6 months to approve; if labeling takes a similar amount of time, starting only after approval pushes the launch timelines out.
-
-- Get draft labels released ahead of time so the final version can go out quickly once approval lands.
-- IFUs or patient guides are trickier, since authority feedback often comes closer to approval, so they can't always start early. Prioritize labels (import labels, implantable device labels) whose content stays stable, e.g. through an MDD to MDR transition.
+- Get draft labels released ahead of time so the final version can go out quickly once approval lands, agreeing timelines with the affiliate early on what can start before approval.
+- IFUs or patient guides are trickier, since authority feedback often comes closer to approval, so they can't always start early.
 
 **Get the IFU and labeling content right.** For country-specific IFUs:
 
