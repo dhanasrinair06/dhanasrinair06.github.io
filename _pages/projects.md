@@ -27,18 +27,18 @@ description: "A look at my regulatory work across three areas — click into eac
         <div class="card h-100 hoverable">
           <div class="card-body">
             <h2 class="card-title">Cannabis Regulation</h2>
-            <p class="card-text">My earlier regulatory work in cannabis products.</p>
+            <p class="card-text">Cannabis microbial-testing regulations across all 50 US states at Medicinal Genomics.</p>
           </div>
         </div>
       </a>
     </div>
 
     <div class="col">
-      <a href="{{ '/projects/api-feed/' | relative_url }}">
+      <a href="{{ '/projects/food-feed/' | relative_url }}">
         <div class="card h-100 hoverable">
           <div class="card-body">
-            <h2 class="card-title">API/Feed Products</h2>
-            <p class="card-text">My earlier regulatory work in API and feed products.</p>
+            <h2 class="card-title">Food/Feed Products</h2>
+            <p class="card-text">Enzyme-based API, food, and feed registrations across APJ and EMEA at Advanced Enzyme Technologies.</p>
           </div>
         </div>
       </a>
