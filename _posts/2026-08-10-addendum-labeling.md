@@ -5,6 +5,14 @@ date: 2026-08-10 09:00:00-0400
 tags: regulatory-affairs addendum-labeling
 categories: regulatory-notes
 related_posts: false
+_styles: |
+  #markdown-content > p {
+    margin-top: 2.1rem;
+  }
+  #markdown-content > ul {
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+  }
 ---
 
 In my earlier post on the EU MDD to EU MDR transition, I promised a closer look at addendum labeling. It's one of the most timeline-sensitive parts of a product launch, and getting ahead of it can save enormous time in making the device reach patients.
