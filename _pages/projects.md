@@ -7,21 +7,42 @@ nav_order: 3
 description: "A look at my regulatory work across three areas — click into each to explore."
 ---
 
-<div class="work-hub">
+<div class="projects">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
 
-  <a class="work-hub__card" href="{{ '/projects/medical-devices/' | relative_url }}">
-    <h2>Medical Devices</h2>
-    <p>Class II/III device submissions across EMEA, APJ, and CALA — EU MDR execution and worldwide product launches.</p>
-  </a>
+    <div class="col">
+      <a href="{{ '/projects/medical-devices/' | relative_url }}">
+        <div class="card h-100 hoverable">
+          {% include figure.liquid loading="eager" path="assets/img/products/acculink.png" sizes="250px" alt="Medical Devices" class="card-img-top" %}
+          <div class="card-body">
+            <h2 class="card-title">Medical Devices</h2>
+            <p class="card-text">Class II/III device submissions across EMEA, APJ, and CALA — EU MDR execution and worldwide launches.</p>
+          </div>
+        </div>
+      </a>
+    </div>
 
-  <a class="work-hub__card" href="{{ '/projects/cannabis/' | relative_url }}">
-    <h2>Cannabis Regulation</h2>
-    <p>My earlier regulatory work in cannabis products.</p>
-  </a>
+    <div class="col">
+      <a href="{{ '/projects/cannabis/' | relative_url }}">
+        <div class="card h-100 hoverable">
+          <div class="card-body">
+            <h2 class="card-title">Cannabis Regulation</h2>
+            <p class="card-text">My earlier regulatory work in cannabis products.</p>
+          </div>
+        </div>
+      </a>
+    </div>
 
-  <a class="work-hub__card" href="{{ '/projects/api-feed/' | relative_url }}">
-    <h2>API/Feed Products</h2>
-    <p>My earlier regulatory work in API and feed products.</p>
-  </a>
+    <div class="col">
+      <a href="{{ '/projects/api-feed/' | relative_url }}">
+        <div class="card h-100 hoverable">
+          <div class="card-body">
+            <h2 class="card-title">API/Feed Products</h2>
+            <p class="card-text">My earlier regulatory work in API and feed products.</p>
+          </div>
+        </div>
+      </a>
+    </div>
 
+  </div>
 </div>
