@@ -125,3 +125,16 @@ html[data-theme="dark"] .work-category__role {
   object-fit: contain;
   border-radius: 6px;
 }
+
+/******************************************************************************
+ * RegLens posts — more breathing room between sections
+ ******************************************************************************/
+
+.reglens-post #markdown-content > p {
+  margin-top: 2.1rem;
+}
+
+.reglens-post #markdown-content > ul {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
