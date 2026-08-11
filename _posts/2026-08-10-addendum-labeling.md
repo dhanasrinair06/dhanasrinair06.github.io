@@ -9,6 +9,9 @@ _styles: |
   #markdown-content > p {
     margin-top: 2.1rem;
   }
+  #markdown-content > p:first-child {
+    margin-top: 0.4rem;
+  }
   #markdown-content > ul {
     margin-top: 0.4rem;
     margin-bottom: 0.4rem;
