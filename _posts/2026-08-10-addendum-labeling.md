@@ -28,6 +28,6 @@ In my earlier post on the EU MDD to EU MDR transition, I promised a closer look 
 - Have check points, such as the applicability of CE/UKCA marking for certain EMEA countries — e.g., Ukraine expects its own conformity assessment mark instead of the above markings; the same care applies to Authorized Rep details.
 - Keep approval letters and the relevant regulations on file as evidence for anything added/deleted. Confirm with the affiliate before proceeding.
 
-**Implement across the supply chain.** Work with the labeling team, international affiliates, and supply chain in parallel for visibility into completion and realistic launch timelines. Once labeling is implemented, coordinate with the labeling team, supply chain, and distribution centers so country-specific labeling is applied to, or provided with the product before it ships. Incorrect labeling can mean non-compliance, a hold at customs, and ultimately delayed availability to the patient.
+**Implement across the supply chain.** Work with the labeling team, international affiliates, supply chain, and distribution centers in parallel for visibility into completion and realistic launch timelines, and so that, once labeling is implemented, country-specific labeling is applied to, or provided with the product before it ships. Incorrect labeling can mean non-compliance, a hold at customs, and ultimately delayed availability to the patient.
 
 *(This approach applies not just to the MDD-MDR transition but also to change impact assessments more broadly.)*
