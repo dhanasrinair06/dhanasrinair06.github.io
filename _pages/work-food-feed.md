@@ -4,23 +4,19 @@ title: Food/Feed Products
 permalink: /projects/food-feed/
 description: "Global submissions for enzyme-based food, feed, and API products. And also my first real entry into the regulatory world."
 nav: false
+_styles: |
+  .post article p,
+  .post article li {
+    font-size: 0.92rem;
+    line-height: 1.6;
+  }
 ---
 
-<div class="work-categories">
+As a Regulatory Affairs Executive at Advanced Enzyme Technologies, I led global submissions for enzyme-based food, feed, and API products across APJ and EMEA.
 
-  <section class="work-category">
-    <h2 class="work-category__title">Global Submissions</h2>
-    <p class="work-category__role">As a Regulatory Affairs Executive at Advanced Enzyme Technologies, I led global submissions for enzyme-based food, feed, and API products across APJ and EMEA.</p>
-  </section>
+Where I created impact: I dug into our past submissions to understand what kept triggering regulator questions, then redesigned our dossier structure around those patterns — cutting regulatory queries in half. Fewer questions meant faster approvals and products reaching the market sooner.
 
-  <section class="work-category">
-    <h2 class="work-category__title">Where I Created Impact</h2>
-    <p class="work-category__role">I dug into our past submissions to understand what kept triggering regulator questions, then redesigned our dossier structure around those patterns — cutting regulatory queries in half. Fewer questions meant faster approvals and products reaching the market sooner.</p>
-  </section>
+Explore the product areas I supported at Advanced Enzyme Technologies:
 
-  <section class="work-category">
-    <h2 class="work-category__title">Product Areas</h2>
-    <p class="work-category__role">Explore the product areas I supported at Advanced Enzyme Technologies: <a href="https://www.advancedenzymes.com/products-and-solutions/animal-nutrition/">Animal Nutrition</a> and <a href="https://www.advancedenzymes.com/products-and-solutions/food-processing/">Food Processing</a>.</p>
-  </section>
-
-</div>
+- [Animal Nutrition](https://www.advancedenzymes.com/products-and-solutions/animal-nutrition/)
+- [Food Processing](https://www.advancedenzymes.com/products-and-solutions/food-processing/)
