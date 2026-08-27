@@ -2,7 +2,7 @@
 layout: page
 title: Food/Feed Products
 permalink: /projects/food-feed/
-description: "Global submissions for enzyme-based food, feed, and API products at Advanced Enzyme Technologies — and a dossier redesign that halved regulator queries."
+description: "Global submissions for enzyme-based food, feed, and API products. And also my first real entry into the regulatory world."
 nav: false
 ---
 
