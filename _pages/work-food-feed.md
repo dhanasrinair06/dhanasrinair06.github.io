@@ -12,7 +12,7 @@ _styles: |
   }
 ---
 
-As a Regulatory Affairs Executive at Advanced Enzyme Technologies, I led global submissions for enzyme-based food, feed, and API products across APJ and EMEA.
+As a Regulatory Affairs Executive at Advanced Enzyme Technologies, I led submissions for food, feed, and API products across APJ and EMEA.
 
 Where I created impact: I dug into our past submissions to understand what kept triggering regulator questions, then redesigned our dossier structure around those patterns — cutting regulatory queries in half. Fewer questions meant faster approvals and products reaching the market sooner.
 
