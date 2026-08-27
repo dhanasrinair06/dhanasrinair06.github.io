@@ -504,6 +504,20 @@ footer.sticky-bottom {
   }
 }
 
+// Visitor counter in the footer. The blanket `span` colour rule further up sets
+// --global-text-color on the count directly, which beats the cream it would
+// otherwise inherit from the footer — so set it explicitly here.
+.visitor-counter {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--global-footer-text-color);
+
+  span,
+  i {
+    color: var(--global-footer-text-color);
+  }
+}
+
 // CV
 
 .cv {
