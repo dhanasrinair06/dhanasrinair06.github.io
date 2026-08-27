@@ -191,6 +191,10 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  # MentorHub is a work in progress — built and previewed locally only.
+  # _config_dev.yml does not carry this entry, so the page builds on the local
+  # server but is left out of the published site. Remove this line to go live.
+  - _pages/mentorhub.md
   - purgecss.config.js
   - README.md
   - readme_preview/

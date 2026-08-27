@@ -1,0 +1,227 @@
+/******************************************************************************
+ * MentorHub — curated Q&A page
+ ******************************************************************************/
+
+.mentorhub {
+  margin: 1.5rem 0 2rem;
+}
+
+.post article .mentorhub .mentorhub__intro {
+  font-size: 0.95rem;
+  line-height: 1.7 !important;
+  margin-bottom: 1.75rem !important;
+}
+
+/* Topic filter chips */
+
+.mentorhub__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.mh-chip {
+  padding: 0.32rem 0.85rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--global-text-color);
+  background: transparent;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  cursor: pointer;
+  transition:
+    background 0.15s ease,
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.mh-chip:hover {
+  border-color: var(--global-theme-color);
+}
+
+.mh-chip.is-active {
+  color: var(--global-bg-color);
+  background: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+}
+
+/* Q&A list */
+
+.mentorhub__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.mh-item {
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.mh-item__q {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 1rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--global-text-color);
+  cursor: pointer;
+  list-style: none;
+}
+
+.mh-item__q::-webkit-details-marker {
+  display: none;
+}
+
+.mh-item__q:hover .mh-item__qtext {
+  color: var(--global-theme-color);
+}
+
+.mh-item__qtext::before {
+  content: "?";
+  display: inline-block;
+  width: 1.15rem;
+  margin-right: 0.5rem;
+  font-weight: 700;
+  color: var(--global-theme-color);
+}
+
+.mh-item[open] .mh-item__qtext::before {
+  content: "\2014"; /* em dash once expanded */
+}
+
+.mh-item__topic {
+  flex-shrink: 0;
+  padding: 0.15rem 0.55rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  white-space: nowrap;
+  color: var(--global-text-color-light);
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+}
+
+.post article .mh-item .mh-item__a {
+  padding: 0 1rem 0.95rem 2.65rem;
+  border-top: 1px solid var(--global-divider-color);
+  margin-top: 0 !important;
+}
+
+.post article .mh-item__a p {
+  margin-top: 0.85rem !important;
+  margin-bottom: 0 !important;
+  font-size: 0.9rem;
+  line-height: 1.65 !important;
+}
+
+.post article .mh-item__a .mh-item__date {
+  margin-top: 0.7rem !important;
+  font-size: 0.75rem;
+  color: var(--global-text-color-light);
+}
+
+.mentorhub__empty {
+  padding: 1.25rem 0;
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+}
+
+/* Ask form */
+
+.mh-ask {
+  margin-top: 2.75rem;
+  padding: 1.5rem;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 10px;
+}
+
+.post article .mh-ask .mh-ask__title {
+  margin: 0 0 0.5rem !important;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--global-theme-color);
+}
+
+.post article .mh-ask .mh-ask__blurb {
+  margin: 0 0 1.25rem !important;
+  font-size: 0.87rem;
+  line-height: 1.6 !important;
+  color: var(--global-text-color-light);
+}
+
+.mh-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.mh-form__label {
+  margin-bottom: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--global-text-color);
+}
+
+.mh-form__label span {
+  font-weight: 400;
+  color: var(--global-text-color-light);
+}
+
+.mh-form__input {
+  margin-bottom: 1rem;
+  padding: 0.55rem 0.7rem;
+  font-family: inherit;
+  font-size: 0.88rem;
+  color: var(--global-text-color);
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  resize: vertical;
+}
+
+.mh-form__input:focus {
+  outline: none;
+  border-color: var(--global-theme-color);
+}
+
+.mh-form__submit {
+  align-self: flex-start;
+  padding: 0.5rem 1.15rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--global-bg-color);
+  background: var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.mh-form__submit:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.post article .mh-form .mh-form__note {
+  margin: 0.85rem 0 0 !important;
+  font-size: 0.75rem;
+  font-style: italic;
+  color: var(--global-text-color-light);
+}
+
+@media (max-width: 576px) {
+  .mh-item__q {
+    flex-direction: column;
+    gap: 0.45rem;
+  }
+
+  .mh-item__topic {
+    align-self: flex-start;
+  }
+}

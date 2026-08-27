@@ -1,0 +1,40 @@
+# MentorHub Q&A entries.
+#
+# Newest first — the page renders them in the order listed here.
+# To add one, copy a block and fill it in. `topic` drives the filter chips,
+# so reuse an existing topic name when it fits.
+#
+# The four entries below are PLACEHOLDER text written to show the layout.
+# Replace the answers with your own words before this ever goes public.
+
+- question: "I'm finishing a science degree and want to move into regulatory affairs. Where do I even start?"
+  topic: "Getting started"
+  date: 2026-08-20
+  answer: >
+    [Placeholder answer — replace with your own.] Start by reading real submissions
+    rather than job descriptions. Guidance documents are public, and working through
+    one end to end teaches you more about the job than any course summary will.
+    A science background is an asset here, not something to apologise for.
+
+- question: "How much does a microbiology background actually help in a regulatory role?"
+  topic: "Getting started"
+  date: 2026-08-14
+  answer: >
+    [Placeholder answer — replace with your own.] More than people expect. It shapes
+    how you read a technical file and how quickly you spot the claim that won't hold up.
+
+- question: "What's the hardest part of an EU MDR submission that nobody warns you about?"
+  topic: "EU MDR"
+  date: 2026-08-02
+  answer: >
+    [Placeholder answer — replace with your own.] The writing. The technical work is
+    finite; making a reviewer's job easy is the part that decides how many questions
+    come back at you.
+
+- question: "Is a Master's in Regulatory Affairs worth it, or should I learn on the job?"
+  topic: "Career"
+  date: 2026-07-25
+  answer: >
+    [Placeholder answer — replace with your own.] It depends on what you want it to do
+    for you. It buys vocabulary and a network quickly; it does not replace having
+    shipped something.
