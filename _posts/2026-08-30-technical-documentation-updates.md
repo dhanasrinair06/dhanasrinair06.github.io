@@ -18,7 +18,7 @@ _styles: |
   }
 ---
 
-Technical file (TF) and technical documentation (TD) updates sit at the centre of every change impact assessment — and they come round again each year regardless of whether anything has changed. How significant a change is determines whether it lands as a substantial or a minor revision to the TD/TF.
+Technical file (TF) and technical documentation (TD) updates sit at the centre of every change impact assessment, and they come round again each year regardless of whether anything has changed. How significant a change is determines whether it lands as a substantial or a minor revision to the TD/TF.
 
 **What counts as a significant change.** Some changes clearly push a TF update into substantial territory:
 
@@ -50,7 +50,7 @@ Taken together, a 12-month update cycle for the TD/TF is the approach that holds
 
 **Bring subject matter experts in early.** Get the right reviewer onto the right section: a sterilization SME on the sterilization sections; a regulatory compliance review of the standards and GSPRC clauses the device is declared against with its evidence of completion. Early alignment saves rework later.
 
-**Redline everything, then get it peer-reviewed.** Capture every change in redlines, with background information where it helps. Peer review is the critical step — it's what confirms the changes were captured accurately and that the change history carries sufficient rationale.
+**Redline everything, then get it peer-reviewed.** Capture every change in redlines, with background information where it helps. Peer review is the critical step; it's what confirms the changes were captured accurately and that the change history carries sufficient rationale.
 
 **Don't release until the deliverables are closed.** Before releasing the technical documentation into the regulatory repository, confirm that all reports, document and labeling updates are complete and released in the quality system. If something is still pending, either work with the change owner to close it first, or assess the risk and agree the strategy from there.
 
