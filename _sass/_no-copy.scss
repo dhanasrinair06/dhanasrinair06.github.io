@@ -1,0 +1,27 @@
+/******************************************************************************
+ * Copy deterrent — blocks select-and-copy over page content.
+ *
+ * Paired with assets/js/no-copy.js. Form fields are exempted so the search
+ * box and any input on the site stay usable.
+ ******************************************************************************/
+
+.post,
+.projects,
+.news,
+.publications {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+input,
+textarea,
+select,
+[contenteditable="true"] {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
