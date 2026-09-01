@@ -1,0 +1,39 @@
+/******************************************************************************
+ * Content links.
+ *
+ * The theme colours links with --global-theme-color, which in light mode is
+ * the same navy as body copy — so an inline link is indistinguishable from
+ * ordinary text. Links in prose get their own colour and a standing underline.
+ *
+ * Scoped to text blocks (p / li / td) inside <article>, which deliberately
+ * leaves alone:
+ *   - navbar and footer links
+ *   - the tag and category chips, which live in .post-header, outside <article>
+ *   - the My Work cards, whose link wraps a .card rather than sitting in a <p>
+ ******************************************************************************/
+
+:root {
+  --content-link-color: #1a5fa8;
+  --content-link-hover-color: #0d3d70;
+}
+
+html[data-theme="dark"] {
+  --content-link-color: #{$gold-bright};
+  --content-link-hover-color: #{$gold-soft};
+}
+
+.post article p a,
+.post article li a,
+.post article td a {
+  color: var(--content-link-color);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+.post article p a:hover,
+.post article li a:hover,
+.post article td a:hover {
+  color: var(--content-link-hover-color);
+  text-decoration: underline;
+}
