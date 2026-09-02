@@ -25,6 +25,7 @@ description: "A look at my regulatory work across three areas — click into eac
     <div class="col">
       <a href="{{ '/projects/cannabis/' | relative_url }}">
         <div class="card h-100 hoverable">
+          {% include figure.liquid loading="eager" path="assets/img/products/cannabis-regulation.jpg" sizes="250px" alt="Cannabis Regulation" class="card-img-top" %}
           <div class="card-body">
             <h2 class="card-title">Cannabis Regulation</h2>
             <p class="card-text">Cannabis microbial-testing regulations across all 50 US states at Medicinal Genomics.</p>
@@ -36,6 +37,7 @@ description: "A look at my regulatory work across three areas — click into eac
     <div class="col">
       <a href="{{ '/projects/food-feed/' | relative_url }}">
         <div class="card h-100 hoverable">
+          {% include figure.liquid loading="eager" path="assets/img/products/food-feed.jpg" sizes="250px" alt="Food/Feed Products" class="card-img-top" %}
           <div class="card-body">
             <h2 class="card-title">Food/Feed Products</h2>
             <p class="card-text">Enzyme-based API, food, and feed registrations across APJ and EMEA at Advanced Enzyme Technologies.</p>
