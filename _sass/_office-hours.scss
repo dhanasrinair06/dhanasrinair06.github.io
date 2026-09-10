@@ -208,8 +208,15 @@
 }
 
 .post article .office-hours .oh-section-title {
-  margin: 0 0 1rem !important;
+  margin: 0 0 0.5rem !important;
   font-size: 1.25rem;
   font-weight: 600;
   color: var(--global-theme-color);
+}
+
+.post article .office-hours .oh-section-note {
+  margin: 0 0 1.1rem !important;
+  font-size: 0.8rem;
+  line-height: 1.6 !important;
+  color: var(--global-text-color-light);
 }
