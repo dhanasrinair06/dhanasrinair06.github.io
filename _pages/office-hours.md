@@ -10,10 +10,7 @@ nav_order: 7
 <div class="office-hours">
 
   <section class="oh-book">
-    <h2 class="oh-book__title">Book a time</h2>
-    <p class="oh-book__blurb">
-      Pick any slot that suits you. The calendar opens in a new tab.
-    </p>
+    <h2 class="oh-book__title">Pick any slot that suits you</h2>
 
     {% if site.calendly.url and site.calendly.url != '' %}
       <a class="oh-book__cta"
