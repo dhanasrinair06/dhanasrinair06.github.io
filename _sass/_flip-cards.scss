@@ -37,6 +37,11 @@
   color: var(--global-text-color);
 }
 
+/* A second role line inside the same category, following a card grid */
+.post article .work-category .work-category__grid + .work-category__role {
+  margin-top: 1.6rem !important;
+}
+
 html[data-theme="dark"] .work-category__role {
   background: rgba(244, 196, 48, 0.08);
 }

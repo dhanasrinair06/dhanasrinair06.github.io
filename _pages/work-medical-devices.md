@@ -54,6 +54,27 @@ Product information shown is publicly available on Abbott's website.
         <p class="product-card__name">Viatrac 14 Plus</p>
       </div>
     </div>
+    <p class="work-category__role">Led EU MDR technical documentation updates (for significant and non-significant changes) and product release for regulated countries.</p>
+    <div class="work-category__grid">
+      <div class="product-card">
+        <div class="product-card__image">
+          <img src="{{ '/assets/img/products/armada-14.jpg' | relative_url }}" alt="Armada 14 PTA Catheter" loading="lazy">
+        </div>
+        <p class="product-card__name">Armada 14</p>
+      </div>
+      <div class="product-card">
+        <div class="product-card__image">
+          <img src="{{ '/assets/img/products/armada-18.jpg' | relative_url }}" alt="Armada 18 Balloon Dilatation Catheter" loading="lazy">
+        </div>
+        <p class="product-card__name">Armada 18</p>
+      </div>
+      <div class="product-card">
+        <div class="product-card__image">
+          <img src="{{ '/assets/img/products/armada-35.jpg' | relative_url }}" alt="Armada 35 Balloon Dilatation Catheter" loading="lazy">
+        </div>
+        <p class="product-card__name">Armada 35</p>
+      </div>
+    </div>
   </section>
 
   <section class="work-category">
