@@ -39,12 +39,14 @@ nav_order: 7
 
   {% assign entries = site.data.office_hours %}
   {% assign topics = entries | map: "topic" | uniq | sort %}
+  {% if topics.size > 1 %}
   <div class="office-hours__filters" role="group" aria-label="Filter questions by topic">
     <button type="button" class="oh-chip is-active" data-topic="all">All</button>
     {% for topic in topics %}
       <button type="button" class="oh-chip" data-topic="{{ topic }}">{{ topic }}</button>
     {% endfor %}
   </div>
+  {% endif %}
 
   <div class="office-hours__list">
     {% for item in entries %}

@@ -4,8 +4,7 @@
 # To add one, copy a block and fill it in. `topic` drives the filter chips,
 # so reuse an existing topic name when it fits.
 #
-# The first two answers are real. The remaining two are PLACEHOLDER text written
-# to show the layout, and still need replacing before this page goes public.
+# Both answers below are real and published.
 
 - question: "I'm finishing a science degree and want to move into regulatory affairs. Where do I even start?"
   topic: "Career"
@@ -29,18 +28,19 @@
 
     That being said, I don't think microbiology is the only background that prepares someone well for Regulatory Affairs. Different life science backgrounds give us different skills and perspectives, and many of those eventually translate into the regulatory work we do.
 
-- question: "What's the hardest part of an EU MDR submission that nobody warns you about?"
-  topic: "EU MDR"
-  date: 2026-08-02
-  answer: >
-    [Placeholder answer — replace with your own.] The writing. The technical work is
-    finite; making a reviewer's job easy is the part that decides how many questions
-    come back at you.
-
-- question: "Is a Master's in Regulatory Affairs worth it, or should I learn on the job?"
-  topic: "Career"
-  date: 2026-07-25
-  answer: >
-    [Placeholder answer — replace with your own.] It depends on what you want it to do
-    for you. It buys vocabulary and a network quickly; it does not replace having
-    shipped something.
+# ---------------------------------------------------------------------------
+# NOT PUBLISHED YET. These two questions are waiting on real answers. Delete
+# the leading "# " from a block to bring it back onto the page.
+# ---------------------------------------------------------------------------
+#
+# - question: "What's the hardest part of an EU MDR submission that nobody warns you about?"
+#   topic: "EU MDR"
+#   date: 2026-08-02
+#   answer: |
+#     Your answer here.
+#
+# - question: "Is a Master's in Regulatory Affairs worth it, or should I learn on the job?"
+#   topic: "Career"
+#   date: 2026-07-25
+#   answer: |
+#     Your answer here.
