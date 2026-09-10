@@ -9,7 +9,7 @@ last_name: Nair
 contact_note: >
   Happy to connect! 😊 You can reach me on LinkedIn or via email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Dhanasri Nair — regulatory affairs professional working in medical devices. Global submissions, EU MDR, and field notes on My RegLens.
+  Dhanasri Nair — regulatory affairs professional working in medical devices. Global submissions, EU MDR, and field notes on RegLens.
 footer_text:
 keywords: regulatory affairs, medical devices, EU MDR, technical documentation, global submissions
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -83,7 +83,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: My RegLens
+blog_name: RegLens
 blog_description: notes and learnings from regulatory affairs work
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts

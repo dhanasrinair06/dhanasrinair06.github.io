@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My RegLens
+title: RegLens
 permalink: /regulatory-notes/
 nav: true
 nav_order: 6
