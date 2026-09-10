@@ -12,8 +12,7 @@ nav_order: 7
   <section class="oh-book">
     <h2 class="oh-book__title">Book a time</h2>
     <p class="oh-book__blurb">
-      Pick any slot that suits you — my live availability opens in a new tab,
-      so there's no back-and-forth over email.
+      Pick any slot that suits you. The calendar opens in a new tab.
     </p>
 
     {% if site.calendly.url and site.calendly.url != '' %}
