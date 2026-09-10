@@ -127,7 +127,7 @@ calendly:
   #   https://calendly.com/dhanasri-nair/30min
   # Your available days and times are set inside Calendly itself, not here.
   # Leave blank and the page shows a placeholder instead of a calendar.
-  url:
+  url: https://calendly.com/dhanasrinair/30min
 
 # Newsletter
 # -----------------------------------------------------------------------------
