@@ -71,33 +71,6 @@ nav_order: 7
 
   <p class="office-hours__empty" hidden>No questions under that topic yet.</p>
 
-  <section class="oh-ask">
-    <h2 class="oh-ask__title">Or just ask in writing</h2>
-    <p class="oh-ask__blurb">
-      No account, no sign-up. Leave your name out if you'd rather stay anonymous —
-      I'll never publish contact details, and I only publish a question once I've
-      written an answer worth reading.
-    </p>
-
-    <form class="oh-form" onsubmit="return false;">
-      <label class="oh-form__label" for="oh-question">Your question</label>
-      <textarea id="oh-question" class="oh-form__input" rows="4"
-        placeholder="What would you like to ask?"></textarea>
-
-      <label class="oh-form__label" for="oh-name">Name <span>(optional)</span></label>
-      <input id="oh-name" class="oh-form__input" type="text" placeholder="Anonymous is fine">
-
-      <label class="oh-form__label" for="oh-email">Email <span>(optional — only so I can reply directly)</span></label>
-      <input id="oh-email" class="oh-form__input" type="email" placeholder="you@example.com">
-
-      <button type="submit" class="oh-form__submit" disabled>Send question</button>
-      <p class="oh-form__note">
-        Preview only — this form isn't connected to anything yet, so nothing is sent
-        or stored.
-      </p>
-    </form>
-  </section>
-
 </div>
 
 <script>
