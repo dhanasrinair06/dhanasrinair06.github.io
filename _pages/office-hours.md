@@ -19,23 +19,24 @@ nav_order: 7
   <section class="oh-book">
     <h2 class="oh-book__title">Book a time</h2>
     <p class="oh-book__blurb">
-      Pick any slot that suits you — the calendar below shows exactly when I'm free,
+      Pick any slot that suits you — my live availability opens in a new tab,
       so there's no back-and-forth over email.
     </p>
 
     {% if site.calendly.url and site.calendly.url != '' %}
-      <div class="calendly-inline-widget"
-           data-url="{{ site.calendly.url }}"
-           style="min-width:320px;height:660px;"></div>
-      <script type="text/javascript"
-              src="https://assets.calendly.com/assets/external/widget.js"
-              async></script>
+      <a class="oh-book__cta"
+         href="{{ site.calendly.url }}"
+         target="_blank"
+         rel="noopener">
+        See my availability
+        <span class="oh-book__cta-note">30 minutes · opens in a new tab</span>
+      </a>
     {% else %}
       <div class="oh-book__placeholder">
         <p><strong>Calendar not connected yet.</strong></p>
         <p>
           Add your Calendly link to <code>_config.yml</code> under <code>calendly.url</code>
-          and your live availability appears here automatically.
+          and the booking button appears here automatically.
         </p>
       </div>
     {% endif %}

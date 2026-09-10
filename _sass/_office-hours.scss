@@ -168,6 +168,35 @@
   color: var(--global-text-color-light);
 }
 
+.post article .oh-book .oh-book__cta {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.8rem 1.4rem;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--global-theme-color) !important;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.post article .oh-book .oh-book__cta:hover,
+.post article .oh-book .oh-book__cta:focus-visible {
+  background: var(--global-theme-color);
+  color: var(--global-bg-color) !important;
+}
+
+.oh-book__cta-note {
+  font-size: 0.75rem;
+  font-weight: 400;
+  opacity: 0.85;
+}
+
 .oh-book__placeholder {
   padding: 1.5rem;
   text-align: center;
