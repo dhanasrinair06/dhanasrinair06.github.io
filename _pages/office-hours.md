@@ -2,7 +2,7 @@
 layout: page
 title: office hours
 permalink: /office-hours/
-description: "Book a slot to talk, or read the questions people ask me most about working in regulatory affairs."
+description: "Book a slot to talk, or go through the questions I've been asked so far."
 nav: true
 nav_order: 7
 ---
@@ -10,10 +10,7 @@ nav_order: 7
 <div class="office-hours">
 
   <p class="office-hours__intro">
-    People reach out fairly often — how to get started in regulatory affairs, whether
-    a degree is worth it, what the work is actually like day to day. So I set aside
-    time for it. Book a slot below if you'd like to talk properly, or read on: the
-    questions I get asked most are answered here already.
+    Book a slot below, or feel free to go through the questions I've been asked so far.
   </p>
 
   <section class="oh-book">
