@@ -4,17 +4,20 @@
 # To add one, copy a block and fill it in. `topic` drives the filter chips,
 # so reuse an existing topic name when it fits.
 #
-# The four entries below are PLACEHOLDER text written to show the layout.
-# Replace the answers with your own words before this ever goes public.
+# The first answer is real. The remaining three are PLACEHOLDER text written to
+# show the layout, and still need replacing before this page goes public.
 
 - question: "I'm finishing a science degree and want to move into regulatory affairs. Where do I even start?"
   topic: "Career"
-  date: 2026-08-20
-  answer: >
-    [Placeholder answer — replace with your own.] Start by reading real submissions
-    rather than job descriptions. Guidance documents are public, and working through
-    one end to end teaches you more about the job than any course summary will.
-    A science background is an asset here, not something to apologise for.
+  date: 2026-09-10
+  answer: |
+    1. A good place to start is understanding what Regulatory Affairs actually looks like in the industry you want to enter. RA can be very different across medical devices, food, and other regulated products, so narrowing that down first helps. One of the best ways to do that is to talk to people already in the field and ask how their experience has been so far. Another way is to choose RA within a field you love. For example, I started with RA in food and APIs because the products closely aligned with my love for microbiology and biotechnology. My previous background in microbiology helped me understand the manufacturing process, specification limits, pharmacopoeia, etc.
+
+    2. If you're interested in medical devices, start with the basics: learn how devices are classified, understand common pathways such as 510(k), De Novo and PMA, and read FDA guidance documents. You do not need to know everything before applying. When I switched from microbiology to RA, guidance documents were my go-to place, as they helped me understand the regulatory language and writing. Now, with AI, this has become easier, since you can upload a regulatory document to ChatGPT or Claude and ask it to summarize in layman's terms for starters.
+
+    3. To get into the real world, look for internships, co-ops, or entry-level RA roles where you can get exposure to actual submissions, change assessments, and interactions with cross-functional teams. A life science background already gives you critical skills: a research mindset, a lot of reading, experience working on group projects (useful for cross-functional team collaboration in RA), scientific knowledge that helps you understand how a product functions, the habit of meeting deadlines, etc. The next step is learning how to apply that scientific thinking within a regulatory framework. To give you an example, I started with an internship at a cannabis testing company, a path very few would think to choose. But working at a startup, in a field that was still taking shape, gave me the experience to juggle multiple priorities at once, work in a fast-paced environment, and keep up with cannabis testing regulations that kept changing. Those skills are transferable into your next role, no matter what field you go into next.
+
+    4. My biggest advice: don't wait until you feel "fully qualified" to start applying. Regulatory Affairs is something you learn deeply by doing. You start by applying what you already know, learn new things along the way, and then when you know better, you do better.
 
 - question: "How much does a microbiology background actually help in a regulatory role?"
   topic: "Career"
