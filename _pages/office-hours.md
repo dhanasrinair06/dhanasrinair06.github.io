@@ -34,8 +34,7 @@ nav_order: 7
   <h2 class="oh-section-title">Questions I get asked</h2>
 
   <p class="oh-section-note">
-    These are my own views, based on my own experience. They are not the position of
-    any employer, and not a substitute for regulatory advice on your specific product.
+    These are my own opinions, based on my own experience.
   </p>
 
   {% assign entries = site.data.office_hours %}
