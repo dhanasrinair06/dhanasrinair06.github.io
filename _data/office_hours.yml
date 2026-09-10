@@ -4,8 +4,8 @@
 # To add one, copy a block and fill it in. `topic` drives the filter chips,
 # so reuse an existing topic name when it fits.
 #
-# The first answer is real. The remaining three are PLACEHOLDER text written to
-# show the layout, and still need replacing before this page goes public.
+# The first two answers are real. The remaining two are PLACEHOLDER text written
+# to show the layout, and still need replacing before this page goes public.
 
 - question: "I'm finishing a science degree and want to move into regulatory affairs. Where do I even start?"
   topic: "Career"
@@ -21,10 +21,13 @@
 
 - question: "How much does a microbiology background actually help in a regulatory role?"
   topic: "Career"
-  date: 2026-08-14
-  answer: >
-    [Placeholder answer — replace with your own.] More than people expect. It shapes
-    how you read a technical file and how quickly you spot the claim that won't hold up.
+  date: 2026-09-10
+  answer: |
+    My microbiology background and lab experience gave me exposure to immunology, anatomy, microbial testing, toxicology and endotoxin testing, and several other areas that helped me understand how a product is manufactured, what makes it function, the effect microorganisms can have on product sterility, and the role of sterilization.
+
+    I believe understanding our products is one of the first steps to becoming a great regulatory professional. It greatly helps when assessing the impact of changes introduced to manufacturing, design, or labeling and, most importantly, understanding how those changes could ultimately impact patients.
+
+    That being said, I don't think microbiology is the only background that prepares someone well for Regulatory Affairs. Different life science backgrounds give us different skills and perspectives, and many of those eventually translate into the regulatory work we do.
 
 - question: "What's the hardest part of an EU MDR submission that nobody warns you about?"
   topic: "EU MDR"
