@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Office Hours
+title: office hours
 permalink: /office-hours/
 description: "Book a slot to talk, or read the questions people ask me most about working in regulatory affairs."
 nav: true

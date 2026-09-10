@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Chill
+title: chill
 permalink: /chill/
 description: Things I do to unwind and recharge.
 nav: true
