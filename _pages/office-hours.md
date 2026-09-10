@@ -2,16 +2,12 @@
 layout: page
 title: office hours
 permalink: /office-hours/
-description: "Book a slot to talk, or go through the questions I've been asked so far."
+description: "Book a slot below, or feel free to go through the questions I've been asked so far."
 nav: true
 nav_order: 7
 ---
 
 <div class="office-hours">
-
-  <p class="office-hours__intro">
-    Book a slot below, or feel free to go through the questions I've been asked so far.
-  </p>
 
   <section class="oh-book">
     <h2 class="oh-book__title">Book a time</h2>
@@ -26,7 +22,7 @@ nav_order: 7
          target="_blank"
          rel="noopener">
         See my availability
-        <span class="oh-book__cta-note">30 minutes · opens in a new tab</span>
+        <span class="oh-book__cta-note">30 minutes</span>
       </a>
     {% else %}
       <div class="oh-book__placeholder">
