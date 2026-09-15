@@ -22,10 +22,22 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Regulatory affairs, to me, is quieter than it sounds. It didn't announce itself as a career, but rather it arrived in fragments.
+I didn't fall into Regulatory Affairs. I chose it because, somewhere along the way, I realized it was the way my mind already worked.
 
-The first came during my Master's in microbiology in Mumbai, when a chapter on pharmacopoeias and cosmetic regulations left me oddly absorbed. The second happened during my first encounter with a medical device due to a personal health challenge. The right diagnosis put me on the right path, and I couldn't stop thinking about the opposite. How a misdiagnosis sends someone down a longer, painful harder road. Diagnostic devices are quiet game changers, and somewhere in there I knew I wanted to help patients bring joy back into their lives.
+I have always been curious about people, science, and the why behind things. I love researching, writing, reviewing information from different angles, asking questions, and understanding how one decision can create consequences much further down the line. More importantly, I have always wanted my work to mean something to the people ultimately affected by it.
 
-I'd been eyeing a PhD when a biotech company in Mumbai called with a Regulatory Affairs Trainee role. Three years in, I knew RA was the calling, and I went deeper with a Master's in Regulatory Affairs at Northeastern. My microbiology background still shapes how I frame problems and map the path forward. Along the way, medical devices became the focus. Working as an RA Specialist II at Abbott Vascular, I now help accelerate device approvals and support timely patient access to these technologies.
+My background in microbiology gave me the scientific foundation to understand products and evidence. Regulatory Affairs taught me how to connect that science to decisions, labeling, clinical and preclinical evidence, market access, and ultimately, the people those products are intended to serve.
 
-Off the clock, I'm usually doodling, gardening, cooking a vegan meal, reading, or on a yoga mat. I'm also building a food health app.
+My early regulatory career gave me exposure across animal feed products, APIs, nutraceuticals, and dietary supplements. I worked with regulatory dossiers, labeling requirements, scientific evidence, and questions from regulatory authorities across different markets. Those experiences taught me that regulation is rarely about simply knowing a requirement; it is about understanding the science behind a product, interpreting requirements thoughtfully, and finding a path forward when the answer is not immediately obvious.
+
+Medical devices later became a major chapter of my career. A personal experience with a medical device, followed by my graduate work in Regulatory Affairs, drew me toward the complexity of devices such as the engineering, the science, and their ability to help someone return to everyday life.
+
+At Abbott Vascular, my work grew from change impact assessments and gap analyses into leading end-to-end global launches for Class II and III medical devices, supporting change submissions, responding to regulatory questions, and contributing to regulatory strategies for high-priority changes under tight timelines. Working with international affiliates, R&D, manufacturing, quality engineering, labeling, packaging, and supply chain teams taught me to look far beyond the submission itself. Even a seemingly small change can have implications for regulatory compliance, operations, cost, product availability, and most importantly, the people depending on that product.
+
+Along the way, I also discovered how much I love working with people. Some of the best solutions emerge when people with completely different expertise look at the same problem through different lenses. That intersection of science, strategy, curiosity, and collaboration is still one of my favorite parts of regulatory work.
+
+Over time, those same interests have also led me to think more deeply about food regulation and the way the science and information surrounding what we eat shape the choices people make every single day. I believe food deserves to be viewed as a foundational part of health rather than an afterthought, and I want my work to help people understand it with greater clarity, curiosity, and confidence.
+
+There is much more I hope to build in this space.
+
+More on that chapter soon.
